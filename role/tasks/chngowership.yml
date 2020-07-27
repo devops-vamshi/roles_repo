@@ -1,0 +1,9 @@
+---
+- name: Change ownership
+  file:
+      path: "{{ tomcat_dir }}" 
+      owner: "{{ tomcat_user }}" 
+      group: "{{ group_name }}" 
+      mode: "u+rwx,g+rx,o=rx"
+      recurse: yes
+      state: directory

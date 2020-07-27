@@ -1,0 +1,8 @@
+---
+# tasks file for /home/vamshi/Videos/role
+- import_tasks: java.yml
+- import_tasks: usr_group.yml
+- import_tasks: tomcatdir.yml
+- import_tasks: download.yml
+- import_tasks: chngowership.yml
+- import_tasks: start.yml

@@ -1,0 +1,7 @@
+---
+- name: install JDK 11
+  apt:
+    name: "{{ java_name }}" 
+    state: present
+  tags:
+  - java

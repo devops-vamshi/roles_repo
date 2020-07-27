@@ -1,0 +1,6 @@
+---
+- name: create /opt/tomcat directory
+  file:
+    path: "{{ tomcat_dir }}" 
+    state: directory
+    mode: 0755

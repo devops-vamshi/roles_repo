@@ -1,0 +1,11 @@
+---
+- name: add tomcat group
+  group:
+     name: "{{ group_name }}" 
+
+- name: add tomcat user
+  user:
+    name: "{{ tomcat_user }}" 
+    group: "{{ group_name }}" 
+    home: "{{ dir }}" 
+    createhome: no

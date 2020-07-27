@@ -1,0 +1,23 @@
+---
+# defaults file for /home/vamshi/Videos/role
+#java
+java_name: openjdk-11-jdk
+
+#user_information
+tomcat_user: tomcat
+
+#group_information
+group_name: tomcatgroup
+
+#user and group dir
+dir: /user/share/tomcat
+
+#tomcat_dire
+tomcat_dir: /opt/tomcat
+
+#download link
+doenload_link: https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.tar.gz
+
+#start_dir 
+start_dir: /opt/tomcat/bin/startup.sh
+
